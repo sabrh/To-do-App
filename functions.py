@@ -13,7 +13,7 @@ def write_todos(todos_arg, filepath=FILEPATH): #multiple argument, non default p
 
 
 """
-When you want the output of a code only in functions.py but not when running main.py
+When you want the output of a code only in functions.py but not when running cli.py
 print(__name__)
 
 if __name__=="__main__":
