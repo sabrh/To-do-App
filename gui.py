@@ -2,6 +2,11 @@
 import functions
 import PySimpleGUI  # a third party module/library, can also install from terminal pypi.org PySimpleGUI 4.60.1
 import time
+import os
+
+if not os.path.exists("todos.txt"):
+    with open("todos.txt", "w") as file:
+        pass
 
 PySimpleGUI.theme("DarkPurple4")
 
